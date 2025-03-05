@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🛠 Tailwind Base Styles */
+body {
+  @apply bg-gray-900 text-white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* 🔗 Links Styling */
+a {
+  @apply text-blue-400 hover:underline;
+}
+
+/* 🟩 Button Basic Styling (Can be Overridden in App.css) */
+button {
+  @apply px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600;
+}
